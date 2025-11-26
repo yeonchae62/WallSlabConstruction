@@ -33,12 +33,14 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
-  stringTagMap: {}
+  stringTagMap:
+    MotionVector: User
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
+  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -196,8 +198,9 @@ Material:
     m_Colors:
     - Color_030647fa97a24f01b05ccfde176f9ccb: {r: 0.29245278, g: 0.26868638, b: 0.26072448,
         a: 0}
-    - Color_09bc71ca831e4e6bb0688fe3ac86a291: {r: 1, g: 1, b: 1, a: 0}
-    - Color_170cb2eaa2b941319b3ff4bb73d90690: {r: 0, g: 0.4039216, b: 0.54901963,
+    - Color_09bc71ca831e4e6bb0688fe3ac86a291: {r: 0.9716981, g: 0.9716981, b: 0.9716981,
+        a: 0}
+    - Color_170cb2eaa2b941319b3ff4bb73d90690: {r: 0.04161217, g: 0.027144885, b: 0.09433961,
         a: 0}
     - Color_d4dbd54059e74ff482d1cd002ad14c4f: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_833d696d306949f7814e254284d58828: {r: 0, g: 0, b: 0, a: 0}
